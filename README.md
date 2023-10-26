@@ -6,7 +6,7 @@ Envio is a reliable real-time indexing solution that makes it easy to ingest eve
 The Aim of Envio is to optimize the developer experience of using an indexer, whilst providing fast, secure, and reliable indexing service.
 
 # CLI tool
-This repo uses clap CLI library.
+This repo uses 'clap' CLI library.
 
 Help file for CLI commands can be found here
 
