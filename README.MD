@@ -1,8 +1,8 @@
 # Envio
 
-Envio is a reliable real-time indexing solution that makes it easy to ingest events from EVM-compatible chains and process that data into to custom APIs. These APIs are perfect for unlocking slick user-experiences in blockchain application frontends.
+Envio is a reliable real-time indexing solution that makes it easy to ingest events from EVM-compatible chains and process that data into to custom APIs. These APIs are perfect for unlocking slick user experiences in blockchain application frontends.
 
-Aim of Envio is to optimize developer experience of using an indexer, whilst providing fast, secure and reliable indexing service.
+The Aim of Envio is to optimize the developer experience of using an indexer, whilst providing fast, secure, and reliable indexing service.
 # CLI tool
 
 This repo uses `clap` CLI library.
@@ -36,7 +36,7 @@ envio --help
 
 ## Create templates
 
-`cd` into folder of your choice and run 
+`cd` into a folder of your choice and run 
 ```
 envio init
 ```
@@ -47,7 +47,7 @@ Then choose a template out of the possible options
 > "Gravatar"
 [↑↓ to move, enter to select, type to filter]
 ```
-Then choose a language from Javascript, Typescript or Rescript to write the event handlers file.
+Then choose a language from Javascript, Typescript, or Rescript to write the event handlers file.
 ```
 ? Which language would you like to use?  
 > "Javascript"
@@ -56,7 +56,7 @@ Then choose a language from Javascript, Typescript or Rescript to write the even
 [↑↓ to move, enter to select, type to filter
 ```
 
-This will generate the config, schema and event handlers files according to the template and language chosen.
+This will generate the config, schema, and event handlers files according to the template and language chosen.
 
 ## Configure the files according to your project
 
@@ -64,7 +64,7 @@ This will generate the config, schema and event handlers files according to the 
 
 ## Generate code according to configuration
 
-Once you have configured the above files and deployed the contracts, the following can be used generate all the code that is required for indexing your project:
+Once you have configured the above files and deployed the contracts, the following can be used to generate all the code that is required for indexing your project:
 
 ```
 envio codegen
@@ -85,13 +85,13 @@ and open http://localhost:8080/console.
 
 Admin-secret for local Hasura is `testing` 
 
-Alternatively you can open the file `index.html` for a cleaner experience (no Hasura stuff). Unfortunately, Hasura is currently not configured to make the data public.
+Alternatively, you can open the file `index.html` for a cleaner experience (no Hasura stuff). Unfortunately, Hasura is currently not configured to make the data public.
 
 
 # Local testing using Hardhat and Docker
 Below are steps to be followed when testing the indexer locally using Hardhat and Docker.
 
-NB: All the files must be configured as per guideline above.
+NB: All the files must be configured as per the guidelines above.
 
 1. Removing stale data
    ```
@@ -109,7 +109,7 @@ NB: All the files must be configured as per guideline above.
    rm -r deployments
    pnpm hardhat deploy
    ```
-   Note that this will delete the previous deployment of the smart contract and re-deploy to prevent `node synced status` errors.
+   Note that this will delete the previous deployment of the smart contract and re-deploy it to prevent `node synced status` errors.
 
    More information on how to deploy contracts using Hardhat can be found [here](https://hardhat.org/hardhat-runner/docs/guides/deploying).
 
