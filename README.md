@@ -1,15 +1,16 @@
 # README.md
-#Envio
+
+# Envio
 Envio is a reliable real-time indexing solution that makes it easy to ingest events from EVM-compatible chains and process that data into custom APIs. These APIs are perfect for unlocking slick user experiences in blockchain application frontends.
 
 The Aim of Envio is to optimize the developer experience of using an indexer, whilst providing fast, secure, and reliable indexing service.
 
-#CLI tool
+# CLI tool
 This repo uses clap CLI library.
 
 Help file for CLI commands can be found here
 
-#Getting Started
+# Getting Started
 Installation
 Install prerequisite tools:
 
@@ -25,7 +26,7 @@ Command to see available CLI commands
 
 envio --help
 
-#Create templates
+# Create templates
 cd into folder of your choice and run
 
 envio init
@@ -43,21 +44,21 @@ Then choose a language from Javascript, Typescript, or Rescript to write the eve
 [↑↓ to move, enter to select, type to filter
 This will generate the config, schema, and event handlers files according to the template and language chosen.
 
-#Configure the files according to your project
+# Configure the files according to your project
 Here is an example of how to configure the files for indexing.
 
-#Generate code according to configuration
+# Generate code according to configuration
 Once you have configured the above files and deployed the contracts, the following can be used to generate all the code that is required for indexing your project:
 
 envio codegen
 
-#Run the indexer
+# Run the indexer
 Once all the configuration files and auto-generated files are in place, you are ready to run the indexer for your project:
 
 pnpm start
 View the database
 
-#To view the data in the database, run
+# To view the data in the database, run
 
 ./generated/register_tables_with_hasura.sh
 and open http://localhost:8080/console.
@@ -66,7 +67,7 @@ Admin-secret for local Hasura is testing
 
 Alternatively, you can open the file index.html for a cleaner experience (no Hasura stuff). Unfortunately, Hasura is currently not configured to make the data public.
 
-#Local testing using Hardhat and Docker
+# Local testing using Hardhat and Docker
 Below are steps to be followed when testing the indexer locally using Hardhat and Docker.
 
 NB: All the files must be configured as per guidelines above.
@@ -102,7 +103,7 @@ Checking the results on local Hasura
 ./generated/register_tables_with_hasura.sh
 and open http://localhost:8080/console.
 
-#Troubleshooting
+# Troubleshooting
 Exporting smart contract ABI
 If you have updated your smart contract after the initial codegen, then you will have to recreate the ABI for your smart contract.
 
