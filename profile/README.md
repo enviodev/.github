@@ -12,7 +12,9 @@ Envio is a real-time indexer built specifically for EVM-compatible blockchains, 
 
 Indexing blockchain data becomes effortless with Envio, offering fast syncing speed and simplified setup steps. Detailed logging and error messaging are provided for effective troubleshooting and debugging.
 
+<p align="center">
 <img width="800" alt="2" src="https://github.com/enviodev/.github/assets/82444671/091b29df-515f-43f4-97fb-a58bbafb2e22">
+</p>
 
 <p align="center">
 <a href="https://docs.envio.dev/docs/quickstart">
