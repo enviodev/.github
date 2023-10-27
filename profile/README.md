@@ -16,16 +16,13 @@ Indexing blockchain data becomes effortless with Envio, offering fast syncing sp
 </p>
 
 <p align="center">
-<a href="https://docs.envio.dev/docs/quickstart">
- <img width="193" alt="start shipping" src="https://github.com/enviodev/.github/assets/82444671/5c6ed14e-a3af-451e-bea2-d68e08c87045"/>
-  </a></p>  
+<a href="https://docs.envio.dev/docs/quickstart"> Start shipping</a>
+
 
 ![footer-hero-dark](https://github.com/enviodev/.github/assets/82444671/536398f9-c9e0-4898-8207-1341c2d68b92)
 
 <p align="center">
-<a href="https://twitter.com/envio_indexer">
- <img width="30" alt="start shipping" src="https://github.com/enviodev/.github/assets/82444671/d7fc11a2-01c2-4b34-a9cf-ab8fd1f72f70"/>
-  <a href="https://hey.xyz/u/envio">
- <img width="30" alt="start shipping" src="https://github.com/enviodev/.github/assets/82444671/5db5cdbd-1f9c-4de1-8d21-e10fe5481c03"/>
-  </a></p>
+<a href="https://discord.com/invite/Q9qt8gZ2fX"> Discord</a>
+<a href="https://hey.xyz/u/envio"> Hey</a>
+<a href="https://twitter.com/envio_indexer"> Twitter</a>
   
