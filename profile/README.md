@@ -11,18 +11,28 @@ Envio is a real-time indexer built specifically for EVM-compatible blockchains, 
 
 Indexing blockchain data becomes effortless with Envio, offering fast syncing speed and simplified setup steps. Detailed logging and error messaging are provided for effective troubleshooting and debugging.
 
+## 🛠️ Features 
+- ✅ Automatic Code Generation.
+- ✅ Detailed Logging and Error Messaging.
+- ✅ Quick-Start Templates.
+- ✅ Multi-Chain Data Aggregation.
+- ✅ Envio Hypersync.
+- ✅ EVM-compatible
+
+## 📦 Installation & Quickstart
+[Start shipping](https://docs.envio.dev/docs/quickstart)
+
+## 👩‍💻 For Developers
+- 📖 Hyperindex - full-featured indexer.
+- 💻 HyperRPC - a hyper-speed Ethereum RPC for read methods.
+- ⚡ Hypersync - an optimized low-level and extremely efficient API for data science and dApp building.
+
+## 🤝 Community & Support
+- 👾 [Discord](https://discord.com/invite/Q9qt8gZ2fX)
+- 👋 [Hey (Lenster)](https://hey.xyz/u/envio)
+- 🐦 [Twitter](https://twitter.com/envio_indexer)
+
 <p align="center">
 <img width="800" alt="2" src="https://github.com/enviodev/.github/assets/82444671/091b29df-515f-43f4-97fb-a58bbafb2e22">
 </p>
-
-<p align="center">
-<a href="https://docs.envio.dev/docs/quickstart"> Start shipping</a>
-
-
-![footer-hero-dark](https://github.com/enviodev/.github/assets/82444671/536398f9-c9e0-4898-8207-1341c2d68b92)
-
-<p align="center">
-<a href="https://discord.com/invite/Q9qt8gZ2fX"> Discord</a>
-<a href="https://hey.xyz/u/envio"> Hey</a>
-<a href="https://twitter.com/envio_indexer"> Twitter</a>
   
