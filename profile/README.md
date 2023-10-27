@@ -20,3 +20,7 @@ Indexing blockchain data becomes effortless with Envio, offering fast syncing sp
 <a href="https://docs.envio.dev/docs/quickstart">
  <img width="193" alt="start shipping" src="https://github.com/enviodev/.github/assets/82444671/5c6ed14e-a3af-451e-bea2-d68e08c87045"/>
   </a></p>
+
+  
+
+![footer-hero-dark](https://github.com/enviodev/.github/assets/82444671/536398f9-c9e0-4898-8207-1341c2d68b92)
