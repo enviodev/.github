@@ -3,29 +3,21 @@
   <img width="350" src="https://github.com/enviodev/.github/assets/82444671/602e8a3a-0ba7-46fc-b482-d77d016441d6" alt=" custom image"/>
 <p align="center">
 <a href="https://docs.envio.dev/docs/overview"> Docs</a>
-<a href="https://docs.envio.dev/docs/overview"> Blog</a>
-<a href="https://docs.envio.dev/docs/overview"> Support</a>
+<a href="https://docs.envio.dev/blog"> Blog</a>
 
 
-Envio is a real-time indexer built specifically for EVM-compatible blockchains, providing developers with a seamless and efficient indexing solution. Designed to optimize the user experience, Envio offers automatic code generation and flexible language support. Indexers on Envio can be written in JavaScript, TypeScript, or ReScript.
-
-Indexing blockchain data becomes effortless with Envio, offering fast syncing speed and simplified setup steps. Detailed logging and error messaging are provided for effective troubleshooting and debugging.
-
-## 🛠️ Features 
-- ✅ Automatic Code Generation.
-- ✅ Detailed Logging and Error Messaging.
-- ✅ Quick-Start Templates.
-- ✅ Multi-Chain Data Aggregation.
-- ✅ Envio Hypersync.
-- ✅ EVM-compatible
-
-## 📦 Installation & Quickstart
-[Start shipping](https://docs.envio.dev/docs/quickstart)
+Envio is the state-of-the-art way to retrieve on-chain data. Retrieve millions of blocks, logs, transactions and traces on multiple chains in seconds. 
 
 ## 👩‍💻 For Developers
-- 📖 Hyperindex - full-featured indexer.
-- 💻 HyperRPC - a hyper-speed Ethereum RPC for read methods.
-- ⚡ Hypersync - an optimized low-level and extremely efficient API for data science and dApp building.
+- 📖 HyperIndex - blazingly fast multichain indexer.
+- ⚡ HyperSync - an optimized low-level and extremely efficient and flexible API for requesting on-chain data (e.g. scan 200m blocks subsecond)
+- 💻 HyperRPC - a hyper-speed Ethereum RPC for various read methods.
+
+
+## 📦 Quickstart
+[HyperIndex](https://docs.envio.dev/docs/HyperIndex/contract-import)
+[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)
+
 
 ## 🤝 Community & Support
 - 👾 [Discord](https://discord.com/invite/Q9qt8gZ2fX)
