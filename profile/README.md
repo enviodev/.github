@@ -13,18 +13,30 @@ Envio is the state-of-the-art way to retrieve on-chain data. Retrieve millions o
 - ⚡ HyperSync - an optimized low-level and extremely efficient and flexible API for requesting on-chain data (e.g. scan 200m blocks subsecond)
 - 💻 HyperRPC - a hyper-speed Ethereum RPC for various read methods.
 
+  
+
+- 🌐 [Request a Network](https://discord.com/invite/fztEvj79m3)
+- 💸 [Pricing](https://docs.envio.dev/docs/HyperIndex/hosted-service-billing)
+- 👷 [Careers](https://envio-dev.notion.site/Careers-2d40d8ee1ea54ed9ad229bec2e408892)
+
 
 ## 📦 Quickstart
-[HyperIndex](https://docs.envio.dev/docs/HyperIndex/contract-import)
-[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)
+- [HyperIndex](https://docs.envio.dev/docs/HyperIndex/contract-import)
+- [HyperSync](https://docs.envio.dev/docs/HyperSync/overview)
 
 
 ## 🤝 Community & Support
 - 👾 [Discord](https://discord.com/invite/Q9qt8gZ2fX)
+- 🐦 [X](https://twitter.com/envio_indexer)
+- ✈️ [HyperSync Telegram](https://t.me/+kAIGElzPjApiMjI0)
+- 🏰 [Farcaster](https://warpcast.com/envio)
 - 👋 [Hey (Lenster)](https://hey.xyz/u/envio)
-- 🐦 [Twitter](https://twitter.com/envio_indexer)
+- 🗞️ [Newsletter](https://envio.beehiiv.com/subscribe?utm_source=envio.beehiiv.com&utm_medium=newsletter&utm_campaign=new-post)
 
-<p align="center">
-<img width="800" alt="2" src="https://github.com/enviodev/.github/assets/82444671/091b29df-515f-43f4-97fb-a58bbafb2e22">
-</p>
-  
+## Developer Tutorials
+- 📖 [Docs](https://docs.envio.dev/docs/HyperIndex/tutorial-op-bridge-deposits)
+- 📺 [YouTube](https://www.youtube.com/@envio_indexer)
+
+## Need an indexer but don't have the bandwidth to build it? Envio’s Freelance Network can support you.
+- 🗣️ [Talk to us](https://discord.com/invite/Q9qt8gZ2fX)
+- 🧠 [Join our Freelancer Network](https://noteforms.com/forms/envio-freelancer-network-u9zqbv)
