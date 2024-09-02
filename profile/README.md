@@ -14,9 +14,9 @@ Retrieve millions of blocks, logs, transactions, and traces on multiple chains i
 ⚡ [HyperSync](https://docs.envio.dev/docs/HyperSync/overview) - Fiercely efficient low-level API for fetching logs, blocks, transactions & traces. Scan 200m blocks in < 10 seconds. Do it in Python, Rust, Go, or Typescript. <br><br>
 💻 [HyperRPC](https://docs.envio.dev/docs/HyperSync/overview-hyperrpc) - Hyper-speed Ethereum RPC for various read methods. <br><br>
 
-🌐 [Request a Network](https://discord.com/invite/fztEvj79m3) <br><br>
-💸 [Pricing](https://docs.envio.dev/docs/HyperIndex/hosted-service-billing) <br><br>
-👷 [Careers](https://envio-dev.notion.site/Careers-2d40d8ee1ea54ed9ad229bec2e408892) <br><br>
+🌐 [Request a Network](https://discord.com/invite/fztEvj79m3) <br>
+💸 [Pricing](https://docs.envio.dev/docs/HyperIndex/hosted-service-billing) <br>
+👷 [Careers](https://envio-dev.notion.site/Careers-2d40d8ee1ea54ed9ad229bec2e408892) <br>
 
 
 ## 📦 Quickstart
@@ -25,17 +25,17 @@ Retrieve millions of blocks, logs, transactions, and traces on multiple chains i
 
 
 ## 🤝 Community & Support
-👾 [Discord](https://discord.com/invite/Q9qt8gZ2fX)  <br><br>
-🐦 [X](https://twitter.com/envio_indexer)  <br><br>
-✈️ [HyperSync Telegram](https://t.me/+kAIGElzPjApiMjI0)  <br><br>
-🏰 [Farcaster](https://warpcast.com/envio)  <br><br>
-👋 [Hey (Lenster)](https://hey.xyz/u/envio)  <br><br>
-🗞️ [Newsletter](https://envio.beehiiv.com/subscribe?utm_source=envio.beehiiv.com&utm_medium=newsletter&utm_campaign=new-post)  <br><br>
+👾 [Discord](https://discord.com/invite/Q9qt8gZ2fX)  <br>
+🐦 [X](https://twitter.com/envio_indexer)  <br>
+✈️ [HyperSync Telegram](https://t.me/+kAIGElzPjApiMjI0)  <br>
+🏰 [Farcaster](https://warpcast.com/envio)  <br>
+👋 [Hey (Lenster)](https://hey.xyz/u/envio)  <br>
+🗞️ [Newsletter](https://envio.beehiiv.com/subscribe?utm_source=envio.beehiiv.com&utm_medium=newsletter&utm_campaign=new-post)  <br>
 
 ## Developer Tutorials
-📖 [Docs](https://docs.envio.dev/docs/HyperIndex/tutorial-op-bridge-deposits)  <br><br>
-📺 [YouTube](https://www.youtube.com/@envio_indexer)  <br><br>
+📖 [Docs](https://docs.envio.dev/docs/HyperIndex/tutorial-op-bridge-deposits)  <br>
+📺 [YouTube](https://www.youtube.com/@envio_indexer)  <br>
 
 ## Need an indexer but don't have the bandwidth to build it? Envio’s Freelance Network can support you.
-🗣️ [Talk to us](https://discord.com/invite/Q9qt8gZ2fX)  <br><br>
-🧠 [Join our Freelancer Network](https://noteforms.com/forms/envio-freelancer-network-u9zqbv)  <br><br>
+🗣️ [Talk to us](https://discord.com/invite/Q9qt8gZ2fX)  <br>
+🧠 [Join our Freelancer Network](https://noteforms.com/forms/envio-freelancer-network-u9zqbv)  <br>
