@@ -10,7 +10,7 @@ Envio is the state-of-the-art way to retrieve on-chain data. Retrieve millions o
 
 ## 👩‍💻 For Developers
 - 📖 [HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview) - Blazing-fast multi-chain indexer. Any EVM L1, L2, L3.
-- ⚡ [HyperSync](https://docs.envio.dev/docs/HyperSync/overview) - Optimized low-level and extremely efficient and flexible API for requesting onchain data (e.g. scan 200m blocks in < 10 seconds). Do it in Python, Rust, Go, or Typescript
+- ⚡ [HyperSync](https://docs.envio.dev/docs/HyperSync/overview) - Fiercely efficient low-level API for fetching logs, blocks, blocks, txs & traces (e.g. scan 200m blocks in < 10 seconds). Do it in Python, Rust, Go, or Typescript.
 - 💻 [HyperRPC](https://docs.envio.dev/docs/HyperSync/overview-hyperrpc) - Hyper-speed Ethereum RPC for various read methods.
 
   
