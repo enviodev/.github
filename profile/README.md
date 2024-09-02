@@ -20,8 +20,8 @@ Retrieve millions of blocks, logs, transactions, and traces on multiple chains i
 
 
 ## 📦 Quickstart
-- [HyperIndex](https://docs.envio.dev/docs/HyperIndex/contract-import)
-- [HyperSync](https://docs.envio.dev/docs/HyperSync/overview)
+[HyperIndex](https://docs.envio.dev/docs/HyperIndex/contract-import) <br>
+[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)
 
 
 ## 🤝 Community & Support
