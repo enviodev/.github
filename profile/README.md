@@ -6,7 +6,7 @@
 <a href="https://docs.envio.dev/blog"> Blog</a>
 
 
-Envio is the state-of-the-art way to retrieve on-chain data. Retrieve millions of blocks, logs, transactions and traces on multiple chains in seconds. 
+Envio is the state-of-the-art way to retrieve onchain data. Retrieve millions of blocks, logs, transactions, and traces on multiple chains in seconds. 
 
 ## 👩‍💻 For Developers
 - 📖 [HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview) - Blazing-fast multi-chain indexer. Any EVM L1, L2, L3.
