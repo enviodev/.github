@@ -5,9 +5,7 @@
 <a href="https://docs.envio.dev/docs/overview"> Docs</a>
 <a href="https://docs.envio.dev/blog"> Blog</a>
 
-
-Envio is the state-of-the-art way to retrieve onchain data. 
-Retrieve millions of blocks, logs, transactions, and traces on multiple chains in seconds. 
+Envio is a modern, multi-chain EVM blockchain indexing framework speed-optimized for easily querying real-time and historical data.
 
 ## 👩‍💻 For Developers
 📖 [HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview) - Blazing-fast multi-chain indexer. Any EVM L1, L2, L3. <br><br>
