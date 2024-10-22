@@ -13,7 +13,7 @@ Envio is a modern, multi-chain EVM blockchain indexing framework speed-optimized
 💻 [HyperRPC](https://docs.envio.dev/docs/HyperSync/overview-hyperrpc) - Hyper-speed Ethereum RPC for various read methods. <br><br>
 
 🌐 [Request a Network](https://discord.com/invite/fztEvj79m3) <br>
-💸 [Pricing](https://docs.envio.dev/docs/HyperIndex/hosted-service-billing) <br>
+💸 [Pricing](https://envio.dev/pricing) <br>
 👷 [Careers](https://envio-dev.notion.site/Careers-2d40d8ee1ea54ed9ad229bec2e408892) <br>
 
 
