@@ -1,39 +1,61 @@
 # Envio
 <p align="center">
-  <img width="350" src="https://github.com/enviodev/.github/assets/82444671/602e8a3a-0ba7-46fc-b482-d77d016441d6" alt=" custom image"/>
+  <img width="350" src="https://github.com/enviodev/.github/assets/82444671/602e8a3a-0ba7-46fc-b482-d77d016441d6" alt="Envio logo"/>
+</p>
 <p align="center">
-<a href="https://docs.envio.dev/docs/overview" target="_blank" rel="noopener noreferrer"> Docs</a>
-<a href="https://docs.envio.dev/blog" target="_blank" rel="noopener noreferrer"> Blog</a>
+  <a href="https://docs.envio.dev/docs/overview" target="_blank" rel="noopener noreferrer">Docs</a> •
+  <a href="https://docs.envio.dev/blog" target="_blank" rel="noopener noreferrer">Blog</a> •
+  <a href="https://discord.com/invite/Q9qt8gZ2fX" target="_blank" rel="noopener noreferrer">Discord</a> •
+  <a href="https://twitter.com/envio_indexer" target="_blank" rel="noopener noreferrer">Twitter</a>
+</p>
 
-Envio is a modern, multi-chain EVM blockchain indexing framework speed-optimized for easily querying real-time and historical data.
+## 🚀 What is Envio?
 
-## 👩‍💻 For Developers
-📖 <a href="https://docs.envio.dev/docs/HyperIndex/overview" target="_blank" rel="noopener noreferrer">HyperIndex</a> - Blazing-fast multi-chain indexer. Any EVM L1, L2, L3. <br><br>
-⚡ <a href="https://docs.envio.dev/docs/HyperSync/overview" target="_blank" rel="noopener noreferrer">HyperSync</a> - Fiercely efficient low-level API for fetching logs, blocks, transactions & traces. Scan 200m blocks in < 10 seconds. Do it in Python, Rust, Go, or Typescript. <br><br>
-💻 <a href="https://docs.envio.dev/docs/HyperSync/overview-hyperrpc" target="_blank" rel="noopener noreferrer">HyperRPC</a> - Hyper-speed Ethereum RPC for various read methods. <br><br>
+Envio is a modern, high-performance blockchain indexing platform that makes it easy to query real-time and historical blockchain data across any EVM chain. Built for developers who need reliable, blazing-fast access to on-chain data.
 
-🌐 <a href="https://discord.com/invite/fztEvj79m3" target="_blank" rel="noopener noreferrer">Request a Network</a> <br>
-💸 <a href="https://envio.dev/pricing" target="_blank" rel="noopener noreferrer">Pricing</a> <br>
-👷 <a href="https://envio-dev.notion.site/Careers-2d40d8ee1ea54ed9ad229bec2e408892" target="_blank" rel="noopener noreferrer">Careers</a> <br>
+### ✨ Key Benefits
 
+- **Multi-chain support** - Index any EVM L1, L2, or L3 blockchain
+- **Blazing-fast performance** - Scan 200M blocks in under 10 seconds
+- **Developer-first design** - Simple APIs with multiple language support (TS, Python, Rust, Go)
+- **Production-ready infrastructure** - Built for reliability and scale
 
-## 📦 Quickstart
-<a href="https://docs.envio.dev/docs/HyperIndex/contract-import" target="_blank" rel="noopener noreferrer">HyperIndex</a> <br>
-<a href="https://docs.envio.dev/docs/HyperSync/hypersync-quickstart" target="_blank" rel="noopener noreferrer">HyperSync</a>
+## 🛠️ Core Products
 
+| Product | Description |
+|---------|-------------|
+| [**HyperIndex**](https://docs.envio.dev/docs/HyperIndex/overview) | Complete indexing framework for building custom indexers with minimal code |
+| [**HyperSync**](https://docs.envio.dev/docs/HyperSync/overview) | High-performance API for efficiently fetching logs, blocks, transactions & traces |
+| [**HyperRPC**](https://docs.envio.dev/docs/HyperSync/overview-hyperrpc) | Lightning-fast Ethereum RPC for various read methods |
+
+## 🚦 Get Started
+
+- [**HyperIndex Quickstart**](https://docs.envio.dev/docs/HyperIndex/contract-import)
+- [**HyperSync Quickstart**](https://docs.envio.dev/docs/HyperSync/hypersync-quickstart)
+- [**Developer Tutorials**](https://docs.envio.dev/docs/HyperIndex/tutorial-op-bridge-deposits)
+- [**Video Tutorials**](https://www.youtube.com/@envio_indexer)
+
+## 🌐 Networks & Pricing
+
+- [**Request a Network**](https://discord.com/invite/fztEvj79m3)
+- [**Pricing Plans**](https://envio.dev/pricing)
 
 ## 🤝 Community & Support
-👾 <a href="https://discord.com/invite/Q9qt8gZ2fX" target="_blank" rel="noopener noreferrer">Discord</a>  <br>
-🐦 <a href="https://twitter.com/envio_indexer" target="_blank" rel="noopener noreferrer">X</a>  <br>
-✈️ <a href="https://t.me/+kAIGElzPjApiMjI0" target="_blank" rel="noopener noreferrer">HyperSync Telegram</a>  <br>
-🏰 <a href="https://warpcast.com/envio" target="_blank" rel="noopener noreferrer">Farcaster</a>  <br>
-👋 <a href="https://hey.xyz/u/envio" target="_blank" rel="noopener noreferrer">Hey (Lenster)</a>  <br>
-🗞️ <a href="https://envio.beehiiv.com/subscribe?utm_source=envio.beehiiv.com&utm_medium=newsletter&utm_campaign=new-post" target="_blank" rel="noopener noreferrer">Newsletter</a>  <br>
 
-## Developer Tutorials
-📖 <a href="https://docs.envio.dev/docs/HyperIndex/tutorial-op-bridge-deposits" target="_blank" rel="noopener noreferrer">Docs</a>  <br>
-📺 <a href="https://www.youtube.com/@envio_indexer" target="_blank" rel="noopener noreferrer">YouTube</a>  <br>
+- [**Discord**](https://discord.com/invite/Q9qt8gZ2fX)
+- [**Twitter/X**](https://twitter.com/envio_indexer)
+- [**HyperSync Telegram**](https://t.me/+kAIGElzPjApiMjI0)
+- [**Farcaster**](https://warpcast.com/envio)
+- [**Hey (Lenster)**](https://hey.xyz/u/envio)
+- [**Newsletter**](https://envio.beehiiv.com/subscribe?utm_source=envio.beehiiv.com&utm_medium=newsletter&utm_campaign=new-post)
 
-## Need an indexer but don't have the bandwidth to build it? Envio’s Freelance Network can support you.
-🗣️ <a href="https://discord.com/invite/Q9qt8gZ2fX" target="_blank" rel="noopener noreferrer">Talk to us</a>  <br>
-🧠 <a href="https://noteforms.com/forms/envio-freelancer-network-u9zqbv" target="_blank" rel="noopener noreferrer">Join our Freelancer Network</a>  <br>
+## 💼 Freelancer Network
+
+Don't have bandwidth to build your own indexer? Our freelancer network can help.
+
+- [**Talk to Us**](https://discord.com/invite/Q9qt8gZ2fX)
+- [**Join as a Freelancer**](https://noteforms.com/forms/envio-freelancer-network-u9zqbv)
+
+## 💻 Careers
+
+- [**Join Our Team**](https://envio-dev.notion.site/Careers-2d40d8ee1ea54ed9ad229bec2e408892)
