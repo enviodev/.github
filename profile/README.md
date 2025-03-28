@@ -4,7 +4,10 @@
 <p align="center">
 <a href="https://docs.envio.dev/docs/overview" target="_blank" rel="noopener noreferrer"> Docs</a>
 
-Envio is a modern, multi-chain EVM blockchain indexing framework speed-optimized for easily querying real-time and historical data.
+<p align="center">
+  Envio is a modern, multi-chain EVM blockchain indexer for querying real-time and historical data.
+</p>
+
 
 ---
 
