@@ -29,5 +29,3 @@
 - Follow us on [X](https://x.com/envio_indexer)
 - Join our [Discord](https://discord.com/invite/envio)
 - Report issues on [GitHub](https://github.com/enviodev/hyperindex/issues/new/choose)
-
-If you find HyperIndex useful, please consider giving us a ⭐ on this repo!
