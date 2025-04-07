@@ -27,4 +27,5 @@
 ## Contribution & Support
 - Follow us on [X](https://x.com/envio_indexer)
 - Join our [Discord](https://discord.com/invite/envio)
+- Join our [Telegram](https://t.me/+5mI61oZibEM5OGQ8)
 - Report issues on [GitHub](https://github.com/enviodev/hyperindex/issues/new/choose)
