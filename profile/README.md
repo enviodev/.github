@@ -4,7 +4,7 @@
 <a href="https://docs.envio.dev/docs/overview" target="_blank" rel="noopener noreferrer"> Docs</a>
 
 <p align="center">
-  Envio is a modern, multi-chain EVM blockchain indexer for querying real-time and historical data.
+ Web3's backend. The fastest, most flexible way to get on-chain data. Envio is a modern multi-chain EVM blockchain indexer for querying real-time and historical data.
 </p>
 
 
