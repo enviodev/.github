@@ -19,10 +19,9 @@
 ---
 
 ## For Developers
-- [HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview) - A blazing-fast, developer-friendly multichain indexer, optimized for both local development and reliable hosted deployment
+- [HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview) - A blazing-fast, dev-friendly multichain indexer, optimized for both local development & reliable hosted deployment
 - [HyperSync](https://docs.envio.dev/docs/HyperSync/overview) - A purpose-built, high-performance data retrieval layer that gives devs unprecedented access to blockchain data.
 - [HyperRPC](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc) - An extremely fast read-only RPC designed specifically for data-intensive tasks. 
-- [GitHub](https://github.com/enviodev)
 - [Pricing](https://envio.dev/pricing)
 - [Careers](https://envio-dev.notion.site)
 
