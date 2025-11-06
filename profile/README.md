@@ -10,22 +10,33 @@
 
 ---
 
-## For Developers
-- <a href="https://docs.envio.dev/docs/HyperIndex/overview" target="_blank" rel="noopener noreferrer">HyperIndex</a> - Blazing-fast multi-chain indexer. Any EVM L1, L2, L3. <br><br>
-- <a href="https://docs.envio.dev/docs/HyperSync/overview" target="_blank" rel="noopener noreferrer">HyperSync</a> - Fiercely efficient low-level API for fetching logs, blocks, transactions & traces. Scan 200m blocks in < 10 seconds. Do it in Python, Rust, Go, or Typescript. <br><br>
-- <a href="https://docs.envio.dev/docs/HyperSync/overview-hyperrpc" target="_blank" rel="noopener noreferrer">HyperRPC</a> - Hyper-speed Ethereum RPC for various read methods. <br><br>
-
----
-
 ## Getting Started
-- [Getting Started Guide](https://docs.envio.dev/docs/HyperIndex/getting-started)
+- [Getting Started](https://docs.envio.dev/docs/HyperIndex/getting-started)
 - [Tutorials](https://docs.envio.dev/docs/HyperIndex/tutorial-op-bridge-deposits)
+- [Showcase](https://docs.envio.dev/showcase)
 - [Common Issues](https://docs.envio.dev/docs/HyperIndex/common-issues)
 
 ---
 
-## Contribution & Support
+## For Developers
+- [HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview) - A blazing-fast, developer-friendly multichain indexer, optimized for both local development and reliable hosted deployment
+- [HyperSync](https://docs.envio.dev/docs/HyperSync/overview) - A purpose-built, high-performance data retrieval layer that gives devs unprecedented access to blockchain data.
+- [HyperRPC](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc) - An extremely fast read-only RPC designed specifically for data-intensive tasks. 
+- [GitHub](https://github.com/enviodev)
+- [Pricing](https://envio.dev/pricing)
+- [Careers](https://envio-dev.notion.site)
+
+---
+
+## Other Resources
 - Follow us on [X](https://x.com/envio_indexer)
-- Join our [Discord](https://discord.com/invite/envio)
 - Join our [Telegram](https://t.me/+5mI61oZibEM5OGQ8)
+- [YouTube](https://www.youtube.com/@envio_indexer)
+- [Docs](https://docs.envio.dev/docs/HyperIndex/overview)
+- [Blog](https://docs.envio.dev/blog)
+- [Subscribe to our newsletter](https://envio.beehiiv.com/subscribe?utm_source=envio.beehiiv.com&utm_medium=newsletter&utm_campaign=new-post)
+- [Brand kit](https://github.com/enviodev/brandkit)
 - Report issues on [GitHub](https://github.com/enviodev/hyperindex/issues/new/choose)
+
+
+---
