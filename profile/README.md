@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" src="https://github.com/enviodev/.github/assets/82444671/602e8a3a-0ba7-46fc-b482-d77d016441d6" alt=" custom image"/>
+  <img width="350" src="https://raw.githubusercontent.com/enviodev/brandkit/main/logos/envio-logo-primary.png" alt=" custom image"/>
 <p align="center">
 
 <p align="center">
