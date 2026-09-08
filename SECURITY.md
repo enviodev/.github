@@ -41,7 +41,8 @@ think it matters" is worth far more to us than a long report with no reproductio
 
 ## What to expect from us
 
-- We acknowledge every report sent to security@envio.dev within **3 business days**.
+- We acknowledge every report, sent by either channel above, within **3 business
+  days**.
 - We give you our initial assessment, including whether we consider the report valid
   and in scope, within **10 business days** of acknowledgement.
 - While an accepted issue is open, we update you at least every **30 days**, and we
