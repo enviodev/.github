@@ -13,6 +13,8 @@ Build custom blockchain APIs & analytics. Real-time, with enterprise SLAs. Produ
 [![X](https://img.shields.io/badge/X-Follow-000000?logo=x&logoColor=white)](https://twitter.com/envio_indexer)
 [![Docs](https://img.shields.io/badge/docs-docs.envio.dev-blue)](https://docs.envio.dev)
 
+[Try it free](https://envio.dev) · [Pricing and contact sales](https://envio.dev/pricing) · [Docs for AI agents](https://docs.envio.dev/llms.txt)
+
 </div>
 
 ---
@@ -23,10 +25,10 @@ Envio builds custom blockchain APIs and analytics. Teams use it to turn smart co
 
 The Envio stack:
 
-- **[HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview)**: a fast, multichain blockchain indexer. Transforms on-chain events into production-ready GraphQL APIs in minutes, not days. Independently benchmarked as the fastest indexer tested across every scenario by [Sentio (May 2025)](https://github.com/enviodev/open-indexer-benchmark/blob/main/sentio-benchmarks-may-2025/README.md).
-- **[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)**: the data retrieval layer powering HyperIndex. Up to 2,000x faster than standard RPC endpoints, available natively on [dozens of networks](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks). Can also be used standalone for custom data pipelines via REST or SDKs in Rust, Python, JavaScript, and Go.
-- **[HyperRPC](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc)**: a read-only JSON-RPC endpoint powered by HyperSync. Up to 5x faster than traditional nodes like geth, erigon, and reth for data-intensive operations. Drop-in replacement for existing RPC-based tooling.
-- **[Envio Cloud](https://docs.envio.dev/docs/HyperIndex/hosted-service)**: a fully managed hosting solution for HyperIndex. Git-based deployments, zero-downtime version switching, built-in monitoring and alerting (Discord, Slack, Telegram, Email), and IP/domain whitelisting. Self-hosting is also fully supported.
+- **[HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview)**: Envio's blockchain indexing framework. Choose the contracts and events to track, write TypeScript handlers that shape the data, and HyperIndex keeps it up to date and serves it as a GraphQL API. 6-879x faster in the [open indexer benchmark](https://github.com/enviodev/open-indexer-benchmark).
+- **[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)**: the data retrieval layer powering HyperIndex. Up to 2,000x faster than JSON-RPC, available natively on [dozens of networks](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks). Can also be used standalone for custom data pipelines via REST or official clients for Rust, Python, Node.js and Go.
+- **[HyperRPC](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc)**: a read-only JSON-RPC endpoint powered by HyperSync. Up to 5x faster than geth, erigon and reth for data-heavy reads such as `eth_getLogs`. Drop-in replacement for existing RPC-based tooling.
+- **[Envio Cloud](https://docs.envio.dev/docs/HyperIndex/hosted-service)**: managed hosting for HyperIndex, from a free development plan up to Dedicated infrastructure with an SLA. Git-based deployments, zero-downtime version switching, built-in monitoring and alerting (Discord, Slack, Telegram, Email), and IP/domain whitelisting. Self-hosting is also fully supported.
 
 ---
 
@@ -34,7 +36,7 @@ The Envio stack:
 
 - **Polymarket**: replaced 8 subgraphs with one TypeScript indexer on Polygon, syncing 4 billion events in 6 days. [Read the case study](https://docs.envio.dev/blog/polymarket-hyperindex-case-study)
 - **Sablier**: consolidated 12 separate indexer deployments into a single multichain indexer, now indexing across 18 EVM chains. [Read the case study](https://docs.envio.dev/blog/case-study-sablier)
-- **Limitless Exchange**: powers a daily prediction market on Base with real-time on-chain data and a custom GraphQL API. [Read the case study](https://docs.envio.dev/blog/case-study-limitless-prediction-market)
+- **Limitless Exchange**: powers a daily prediction market on Base with real-time onchain data and a custom GraphQL API. [Read the case study](https://docs.envio.dev/blog/case-study-limitless-prediction-market)
 - **Bridgg**: aggregates deposit and withdrawal data across 12 OP Superchain networks, indexing 11 million events in one deployment. [Read the case study](https://docs.envio.dev/blog/case-study-bridgg-op-superchain)
 - **zkPass**: verifies identity and transactions across 8 EVM networks using ZK proofs while keeping user data private. [Read the case study](https://docs.envio.dev/blog/zkpass-shaping-future-of-data-privacy)
 
@@ -44,7 +46,7 @@ The Envio stack:
 
 ## Performance
 
-Independent benchmarks by [Sentio (May 2025)](https://github.com/enviodev/open-indexer-benchmark/blob/main/sentio-benchmarks-may-2025/README.md), Uniswap V2 Factory dataset (raw indexing speed):
+The [open indexer benchmark](https://github.com/enviodev/open-indexer-benchmark) is the live source. Every number comes from code in that repository and is refreshed by scheduled CI. The tables below are the original independent benchmarks by [Sentio (May 2025)](https://github.com/enviodev/open-indexer-benchmark/blob/main/sentio-benchmarks-may-2025/README.md), Uniswap V2 Factory dataset (raw indexing speed):
 
 | Indexer | Time | vs HyperIndex |
 |---|---|---|
@@ -52,7 +54,7 @@ Independent benchmarks by [Sentio (May 2025)](https://github.com/enviodev/open-i
 | Subsquid | 15 minutes | 15x slower |
 | Sentio | 2 hours 22 minutes | 142x slower |
 | The Graph | 2 hours 23 minutes | 143x slower |
-| Ponder | 2 hours 38 minutes | **158x slower** |
+| Ponder | 2 hours 38 minutes | 158x slower |
 
 LBTC Token with RPC calls (the most realistic real-world scenario, where contract reads are required):
 
@@ -67,25 +69,25 @@ LBTC Token with RPC calls (the most realistic real-world scenario, where contrac
 
 ---
 
-## Key Features
+## Key features
 
 | Feature | Description |
 |---|---|
-| **[Instant Indexer Generation](https://docs.envio.dev/docs/HyperIndex/contract-import)** | Point HyperIndex at any contract address. It auto-generates your entire indexer scaffold from the ABI: event handlers, schema, and GraphQL API. |
-| **[Multichain Aggregation](https://docs.envio.dev/docs/HyperIndex/multichain-indexing)** | Index contracts across multiple chains and query all your data from a single GraphQL API. Supports any EVM chain, Solana, and Fuel. |
-| **Real-Time Event Streaming** | Stream live blockchain events with minimal latency. Transition from historical backfill to real-time mode automatically. |
-| **Reorg and Restart Resilient** | Automatic reorganisation handling with zero downtime rollback. Your data is never corrupted. |
-| **[Block Handlers](https://docs.envio.dev/docs/HyperIndex/block-handlers)** | Run custom logic on every block or at defined intervals. Unlocks time-series data, aggregations, and bulk SQL updates. |
-| **[Factory Contracts](https://docs.envio.dev/docs/HyperIndex/dynamic-contracts)** | Index data from over 1 million dynamically registered contracts, including nested factories. |
-| **[Trace Support](https://docs.envio.dev/blog/tracking-native-eth-transfers-hypersync)** | Index transaction traces directly via HyperSync, including native ETH transfers. Available on Ethereum, Base, Arbitrum, Gnosis, and Monad. |
-| **Off-Chain Data Integration** | Combine on-chain events with off-chain data sources directly inside your event handlers. |
-| **[AI-Assisted Development](https://docs.envio.dev/docs/HyperIndex/quickstart-with-ai)** | Generated projects come with Cursor and Claude skills, agent-friendly templates, and an MCP server. Agents can scaffold, configure, and deploy end to end. |
-| **[Migration Tooling](https://docs.envio.dev/docs/HyperIndex/migration-guide)** | Dedicated migration support from The Graph, Ponder, and Alchemy. AI-assisted migration available. |
-| **[Envio Cloud or Self-Host](https://docs.envio.dev/docs/HyperIndex/hosted-service)** | Deploy to Envio Cloud with a single command, or self-host on your own infrastructure. No vendor lock-in. |
+| **[Instant indexer generation](https://docs.envio.dev/docs/HyperIndex/contract-import)** | Point HyperIndex at any contract address. It auto-generates your entire indexer scaffold from the ABI: event handlers, schema, and GraphQL API. |
+| **[Multichain aggregation](https://docs.envio.dev/docs/HyperIndex/multichain-indexing)** | Index contracts across multiple chains and query all your data from a single GraphQL API. Supports any EVM chain, Solana, and Fuel. |
+| **Real-time event streaming** | Stream live blockchain events with minimal latency. Transition from historical backfill to real-time mode automatically. |
+| **Reorg and restart resilient** | Automatic reorganisation handling with zero downtime rollback. Indexed data rolls back cleanly to the last valid block. |
+| **[Block handlers](https://docs.envio.dev/docs/HyperIndex/block-handlers)** | Run custom logic on every block or at defined intervals. Unlocks time-series data, aggregations, and bulk SQL updates. |
+| **[Factory contracts](https://docs.envio.dev/docs/HyperIndex/dynamic-contracts)** | Index data from over 1 million dynamically registered contracts, including nested factories. |
+| **[Trace support](https://docs.envio.dev/blog/tracking-native-eth-transfers-hypersync)** | Index transaction traces directly via HyperSync, including native ETH transfers. Available on Ethereum, Base, Arbitrum, Gnosis, and Monad. |
+| **Offchain data integration** | Combine onchain events with offchain data sources directly inside your event handlers. |
+| **[AI-assisted development](https://docs.envio.dev/docs/HyperIndex/quickstart-with-ai)** | Generated projects come with agent skills and agent-friendly templates, and the docs have an [MCP server](https://docs.envio.dev/docs/HyperIndex/mcp-server) and [llms.txt](https://docs.envio.dev/llms.txt). Agents can scaffold, configure and deploy end to end. |
+| **[Migration tooling](https://docs.envio.dev/docs/HyperIndex/migration-guide)** | Dedicated migration support from The Graph, Ponder, and Alchemy. AI-assisted migration available. |
+| **[Envio Cloud or self-host](https://docs.envio.dev/docs/HyperIndex/hosted-service)** | Deploy to Envio Cloud with a single command, or self-host on your own infrastructure. No vendor lock-in. |
 
 ---
 
-## Supported Chains
+## Supported chains
 
 HyperIndex supports:
 
@@ -93,7 +95,7 @@ HyperIndex supports:
 - **[Solana](https://docs.envio.dev/docs/HyperIndex/solana)** (Powered by HyperSync for Solana. Instruction-level handlers via `indexer.onInstruction`, IDL-aware decoding, inner instructions (CPIs), and token balance changes. Slot handlers via `indexer.onSlot`. TypeScript only.)
 - **[Fuel Network](https://docs.envio.dev/docs/HyperIndex/fuel)**
 
-[Full Supported Networks List](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks)
+[Full supported networks list](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks)
 
 ---
 
@@ -106,7 +108,7 @@ HyperIndex supports:
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (only required for running indexers locally)
 - Windows users: [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-### Initialize an indexer
+### Initialise an indexer
 
 ```bash
 pnpx envio init
@@ -118,7 +120,7 @@ Choose to scaffold from:
 - A **template**: choose from built-in starter templates (ERC20, Greeter, and more)
 - An **existing subgraph**: migrate with minimal changes
 
-[Getting Started Guide](https://docs.envio.dev/docs/HyperIndex/getting-started) | [Quickstart with AI](https://docs.envio.dev/docs/HyperIndex/quickstart-with-ai)
+[Getting started guide](https://docs.envio.dev/docs/HyperIndex/getting-started) | [Quickstart with AI](https://docs.envio.dev/docs/HyperIndex/quickstart-with-ai)
 
 ### Run locally
 
@@ -138,9 +140,20 @@ Deploy to Envio Cloud with a single command. See the [Envio Cloud documentation]
 
 ---
 
-## Language Support
+## Language support
 
 Write event handlers in TypeScript (recommended), JavaScript, or ReScript.
+
+---
+
+## Build with AI agents
+
+Envio works with Claude Code, Cursor, Codex and other coding agents.
+
+- **Docs for agents.** [llms.txt](https://docs.envio.dev/llms.txt) indexes every docs page, and [llms-full.txt](https://docs.envio.dev/llms-full.txt) has the full text.
+- **Docs MCP server.** Add `https://docs.envio.dev/mcp` to your agent for `docs_search` and `docs_fetch`. See the [MCP server guide](https://docs.envio.dev/docs/HyperIndex/mcp-server).
+- **Skills.** `pnpx envio init` adds HyperIndex skills to every new project.
+- **Quickstart.** [Quickstart with AI](https://docs.envio.dev/docs/HyperIndex/quickstart-with-ai) goes from a contract address to a deployed GraphQL API.
 
 ---
 
@@ -188,7 +201,7 @@ Full documentation at **[docs.envio.dev](https://docs.envio.dev)**.
 <details>
 <summary>What is HyperIndex used for?</summary>
 
-HyperIndex is used to index blockchain events and make on-chain data queryable via a GraphQL API. Common use cases include DeFi dashboards, NFT marketplaces, protocol analytics, trading bots, and any application that needs fast, structured access to real-time or historical blockchain data.
+HyperIndex is used to index blockchain events and make onchain data queryable via a GraphQL API. Common use cases include DeFi dashboards, NFT marketplaces, protocol analytics, trading bots, and any application that needs fast, structured access to real-time or historical blockchain data.
 
 </details>
 
@@ -202,21 +215,21 @@ Independent benchmarks by Sentio (May 2025) show HyperIndex is significantly fas
 <details>
 <summary>What is HyperSync?</summary>
 
-HyperSync is Envio's proprietary data retrieval layer that powers HyperIndex's speed advantage. It is up to 2,000x faster than standard RPC endpoints, using optimised binary encoding and parallel fetching. HyperSync can also be used independently for custom data pipelines via REST or SDKs in Rust, Python, JavaScript, and Go. See the [HyperSync docs](https://docs.envio.dev/docs/HyperSync/overview).
+HyperSync is Envio's blockchain data API and the data layer behind HyperIndex. It is up to 2,000x faster than JSON-RPC, using optimised binary encoding and parallel fetching. HyperSync can also be used independently for custom data pipelines via REST or official clients for Rust, Python, Node.js and Go. See the [HyperSync docs](https://docs.envio.dev/docs/HyperSync/overview).
 
 </details>
 
 <details>
 <summary>What is HyperRPC?</summary>
 
-HyperRPC is a read-only JSON-RPC endpoint powered by HyperSync. Early benchmarks show up to 5x performance improvement over traditional nodes like geth, erigon, and reth for data-intensive operations. It works as a drop-in replacement for existing RPC-based tooling with no integration changes needed. See the [HyperRPC docs](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc).
+HyperRPC is a read-only JSON-RPC endpoint powered by HyperSync. It is up to 5x faster than geth, erigon and reth for data-heavy reads. It works as a drop-in replacement for existing RPC-based tooling with no integration changes needed. See the [HyperRPC docs](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc).
 
 </details>
 
 <details>
 <summary>How fast are the sync speeds?</summary>
 
-HyperIndex sync speeds are best-in-class. In independent benchmarks, HyperIndex synced millions of events in minutes rather than hours, and what would previously take weeks at scale (100M+ events) can now be completed in just over an hour. See the full [benchmark results](https://docs.envio.dev/docs/HyperIndex/benchmarks).
+In independent benchmarks, HyperIndex synced millions of events in minutes rather than hours, and what would previously take weeks at scale (100M+ events) can now be completed in just over an hour. See the full [benchmark results](https://docs.envio.dev/docs/HyperIndex/benchmarks) and the live [open indexer benchmark](https://github.com/enviodev/open-indexer-benchmark).
 
 </details>
 
@@ -325,7 +338,7 @@ When soft limits are breached, a two-stage deletion process begins: a 7-day grac
 <details>
 <summary>Is there an SLA?</summary>
 
-Yes. Service Level Agreements are available for users on the dedicated plan, covering uptime guarantees, response times, and support levels tailored to your requirements. [Contact the team](https://discord.gg/envio) to discuss your needs.
+Yes. Dedicated plans come with a written SLA, with options up to 99.99% uptime backed by service credits, plus 24/7 on-call support. [Compare plans and contact sales](https://envio.dev/pricing).
 
 </details>
 
@@ -345,7 +358,7 @@ Reach out on [Discord](https://discord.gg/envio) and the team will help!
 
 ---
 
-## Community and Support
+## Community and support
 
 - [Discord](https://discord.gg/envio)
 - [X](https://twitter.com/envio_indexer)
@@ -362,6 +375,6 @@ Contributions are welcome. Please open an [issue](https://github.com/enviodev/hy
 
 ---
 
-## License
+## Licence
 
 See [Licensing](https://docs.envio.dev/docs/HyperIndex/licensing) in the documentation.
