@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-Web3's backend. The fastest, most flexible way to index and query real-time and historical blockchain data.
+Build custom blockchain APIs & analytics. Real-time, with enterprise SLAs. Production-ready for teams & AI agents.
 </p>
 
 <div align="center">
@@ -19,12 +19,12 @@ Web3's backend. The fastest, most flexible way to index and query real-time and 
 
 ## What is Envio?
 
-Envio is the fastest, most flexible way to get on-chain data across any EVM chain, plus Solana and Fuel.
+Envio builds custom blockchain APIs and analytics. Teams use it to turn smart contract activity into real-time APIs, to pull raw onchain data into their own pipelines, and to run it all on managed infrastructure, from a free plan up to Dedicated deployments with an SLA. It works across any EVM chain, plus Solana and Fuel.
 
 The Envio stack:
 
 - **[HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview)**: a fast, multichain blockchain indexer. Transforms on-chain events into production-ready GraphQL APIs in minutes, not days. Independently benchmarked as the fastest indexer tested across every scenario by [Sentio (May 2025)](https://github.com/enviodev/open-indexer-benchmark/blob/main/sentio-benchmarks-may-2025/README.md).
-- **[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)**: the data retrieval layer powering HyperIndex. Up to 2,000x faster than standard RPC endpoints, available natively on 79+ networks. Can also be used standalone for custom data pipelines via REST or SDKs in Rust, Python, JavaScript, and Go.
+- **[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)**: the data retrieval layer powering HyperIndex. Up to 2,000x faster than standard RPC endpoints, available natively on [dozens of networks](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks). Can also be used standalone for custom data pipelines via REST or SDKs in Rust, Python, JavaScript, and Go.
 - **[HyperRPC](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc)**: a read-only JSON-RPC endpoint powered by HyperSync. Up to 5x faster than traditional nodes like geth, erigon, and reth for data-intensive operations. Drop-in replacement for existing RPC-based tooling.
 - **[Envio Cloud](https://docs.envio.dev/docs/HyperIndex/hosted-service)**: a fully managed hosting solution for HyperIndex. Git-based deployments, zero-downtime version switching, built-in monitoring and alerting (Discord, Slack, Telegram, Email), and IP/domain whitelisting. Self-hosting is also fully supported.
 
@@ -72,14 +72,14 @@ LBTC Token with RPC calls (the most realistic real-world scenario, where contrac
 | Feature | Description |
 |---|---|
 | **[Instant Indexer Generation](https://docs.envio.dev/docs/HyperIndex/contract-import)** | Point HyperIndex at any contract address. It auto-generates your entire indexer scaffold from the ABI: event handlers, schema, and GraphQL API. |
-| **[Multichain Aggregation](https://docs.envio.dev/docs/HyperIndex/multichain-indexing)** | Index contracts across multiple chains and query all your data from a single GraphQL API. Supports any EVM chain, Solana (beta), and Fuel. |
+| **[Multichain Aggregation](https://docs.envio.dev/docs/HyperIndex/multichain-indexing)** | Index contracts across multiple chains and query all your data from a single GraphQL API. Supports any EVM chain, Solana, and Fuel. |
 | **Real-Time Event Streaming** | Stream live blockchain events with minimal latency. Transition from historical backfill to real-time mode automatically. |
 | **Reorg and Restart Resilient** | Automatic reorganisation handling with zero downtime rollback. Your data is never corrupted. |
 | **[Block Handlers](https://docs.envio.dev/docs/HyperIndex/block-handlers)** | Run custom logic on every block or at defined intervals. Unlocks time-series data, aggregations, and bulk SQL updates. |
 | **[Factory Contracts](https://docs.envio.dev/docs/HyperIndex/dynamic-contracts)** | Index data from over 1 million dynamically registered contracts, including nested factories. |
 | **[Trace Support](https://docs.envio.dev/blog/tracking-native-eth-transfers-hypersync)** | Index transaction traces directly via HyperSync, including native ETH transfers. Available on Ethereum, Base, Arbitrum, Gnosis, and Monad. |
 | **Off-Chain Data Integration** | Combine on-chain events with off-chain data sources directly inside your event handlers. |
-| **[AI-Assisted Development](https://docs.envio.dev/docs/HyperIndex/quickstart-with-ai)** | Generated projects ship with Cursor and Claude skills, agent-friendly templates, and an MCP server. Agents can scaffold, configure, and deploy end to end. |
+| **[AI-Assisted Development](https://docs.envio.dev/docs/HyperIndex/quickstart-with-ai)** | Generated projects come with Cursor and Claude skills, agent-friendly templates, and an MCP server. Agents can scaffold, configure, and deploy end to end. |
 | **[Migration Tooling](https://docs.envio.dev/docs/HyperIndex/migration-guide)** | Dedicated migration support from The Graph, Ponder, and Alchemy. AI-assisted migration available. |
 | **[Envio Cloud or Self-Host](https://docs.envio.dev/docs/HyperIndex/hosted-service)** | Deploy to Envio Cloud with a single command, or self-host on your own infrastructure. No vendor lock-in. |
 
@@ -89,8 +89,8 @@ LBTC Token with RPC calls (the most realistic real-world scenario, where contrac
 
 HyperIndex supports:
 
-- **Any EVM-compatible chain** (HyperSync available natively on 79+ networks; non-HyperSync EVM chains work via RPC)
-- **[Solana](https://docs.envio.dev/docs/HyperIndex/solana)** (beta. Powered by HyperSync for Solana. Instruction-level handlers via `indexer.onInstruction`, IDL-aware decoding, inner instructions (CPIs), and token balance changes. Slot handlers via `indexer.onSlot`. TypeScript only.)
+- **Any EVM-compatible chain** (HyperSync available natively on [dozens of networks](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks); non-HyperSync EVM chains work via RPC)
+- **[Solana](https://docs.envio.dev/docs/HyperIndex/solana)** (Powered by HyperSync for Solana. Instruction-level handlers via `indexer.onInstruction`, IDL-aware decoding, inner instructions (CPIs), and token balance changes. Slot handlers via `indexer.onSlot`. TypeScript only.)
 - **[Fuel Network](https://docs.envio.dev/docs/HyperIndex/fuel)**
 
 [Full Supported Networks List](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks)
@@ -160,7 +160,7 @@ Full documentation at **[docs.envio.dev](https://docs.envio.dev)**.
 
 - [HyperSync Overview](https://docs.envio.dev/docs/HyperSync/overview)
 - [HyperRPC Overview](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc)
-- [Solana (beta)](https://docs.envio.dev/docs/HyperIndex/solana)
+- [Solana](https://docs.envio.dev/docs/HyperIndex/solana)
 - [Fuel](https://docs.envio.dev/docs/HyperIndex/fuel)
 
 **Building**
@@ -195,7 +195,7 @@ HyperIndex is used to index blockchain events and make on-chain data queryable v
 <details>
 <summary>How does HyperIndex compare to The Graph?</summary>
 
-Independent benchmarks by Sentio (May 2025) show HyperIndex is significantly faster than The Graph across every tested scenario: 143x faster in the Uniswap V2 Factory benchmark and 63x faster in the LBTC with RPC calls benchmark (the most realistic real-world scenario). HyperIndex also supports Solana (beta) and Fuel in addition to any EVM chain, handles reorgs automatically, and supports TypeScript, JavaScript, and ReScript handlers instead of AssemblyScript.
+Independent benchmarks by Sentio (May 2025) show HyperIndex is significantly faster than The Graph across every tested scenario: 143x faster in the Uniswap V2 Factory benchmark and 63x faster in the LBTC with RPC calls benchmark (the most realistic real-world scenario). HyperIndex also supports Solana and Fuel in addition to any EVM chain, handles reorgs automatically, and supports TypeScript, JavaScript, and ReScript handlers instead of AssemblyScript.
 
 </details>
 
@@ -223,21 +223,21 @@ HyperIndex sync speeds are best-in-class. In independent benchmarks, HyperIndex 
 <details>
 <summary>What chains are supported?</summary>
 
-Any EVM-compatible chain is supported. 79+ EVM networks have HyperSync enabled for the fastest possible sync speeds; non-HyperSync EVM chains work via RPC. Fuel and Solana (beta) are also supported. For a full list of HyperSync-supported networks, see the [supported networks documentation](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks).
+Any EVM-compatible chain is supported. HyperSync is enabled natively on dozens of EVM networks for the fastest sync speeds; non-HyperSync EVM chains work via RPC. Fuel and Solana are also supported. For a full list of HyperSync-supported networks, see the [supported networks documentation](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks).
 
 </details>
 
 <details>
 <summary>Do you support any non-EVM chains?</summary>
 
-Yes. HyperIndex supports the Fuel network and Solana (beta). Solana indexing runs on HyperSync for Solana, with instruction-level handlers, IDL-aware decoding, CPI support, and token balance changes. Envio is looking to expand non-EVM coverage further. Reach out on [Discord](https://discord.gg/envio) if you have a specific network in mind.
+Yes. HyperIndex supports the Fuel network and Solana. Solana indexing runs on HyperSync for Solana, with instruction-level handlers, IDL-aware decoding, CPI support, and token balance changes. Envio is looking to expand non-EVM coverage further. Reach out on [Discord](https://discord.gg/envio) if you have a specific network in mind.
 
 </details>
 
 <details>
 <summary>How does Solana support work?</summary>
 
-Solana support is in beta. Indexing runs on [HyperSync for Solana](https://docs.envio.dev/docs/HyperSync/solana), the same data engine behind EVM indexing, so historical backfills are fast. You match program instructions by discriminator with `indexer.onInstruction`, and HyperIndex decodes the arguments and accounts using your Anchor IDL or an inline schema. Inner instructions (CPIs), token balances and balance changes, transaction metadata and program logs are all available. `indexer.onSlot` covers per-slot logic and RPC enrichment through the Effect API. Solana indexers are TypeScript only. See the [Solana documentation](https://docs.envio.dev/docs/HyperIndex/solana) for details.
+Solana support is new. Indexing runs on [HyperSync for Solana](https://docs.envio.dev/docs/HyperSync/solana), the same data engine behind EVM indexing, so historical backfills are fast. You match program instructions by discriminator with `indexer.onInstruction`, and HyperIndex decodes the arguments and accounts using your Anchor IDL or an inline schema. Inner instructions (CPIs), token balances and balance changes, transaction metadata and program logs are all available. `indexer.onSlot` covers per-slot logic and RPC enrichment through the Effect API. Solana indexers are TypeScript only. See the [Solana documentation](https://docs.envio.dev/docs/HyperIndex/solana) for details.
 
 </details>
 
