@@ -11,14 +11,14 @@
 <p align="center">
   <a href="https://envio.dev"><img src="https://raw.githubusercontent.com/enviodev/.github/main/profile/assets/button-try-it-free.svg" height="40" alt="Try it free"></a>&nbsp;
   <a href="https://docs.envio.dev"><img src="https://raw.githubusercontent.com/enviodev/.github/main/profile/assets/button-read-the-docs.svg" height="40" alt="Read the docs"></a>&nbsp;
-  <a href="https://envio.dev/pricing"><img src="https://raw.githubusercontent.com/enviodev/.github/main/profile/assets/button-contact-sales.svg" height="40" alt="Contact sales"></a>
+  <a href="https://envio.dev/pricing/hosting"><img src="https://raw.githubusercontent.com/enviodev/.github/main/profile/assets/button-contact-sales.svg" height="40" alt="Contact sales"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/enviodev/hyperindex"><img src="https://img.shields.io/github/stars/enviodev/hyperindex?style=flat&label=HyperIndex%20stars&color=24292F" alt="HyperIndex stars"></a>
   <a href="https://discord.gg/envio"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://t.me/+BeS5ihVUFONjNGFk"><img src="https://img.shields.io/badge/Telegram-join-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
-  <a href="https://twitter.com/envio_indexer"><img src="https://img.shields.io/badge/X-follow-000000?logo=x&logoColor=white" alt="X"></a>
+  <a href="https://x.com/envio_indexer"><img src="https://img.shields.io/badge/X-follow-000000?logo=x&logoColor=white" alt="X"></a>
   <a href="https://docs.envio.dev/llms.txt"><img src="https://img.shields.io/badge/llms.txt-for_agents-24292F" alt="llms.txt"></a>
 </p>
 
@@ -55,21 +55,21 @@ pnpx envio init
 |---|---|
 | **[HyperIndex](https://docs.envio.dev/docs/HyperIndex/overview)** | Indexing framework. TypeScript handlers in, real-time GraphQL API out. 6–879x faster in the [open indexer benchmark](https://github.com/enviodev/open-indexer-benchmark) |
 | **[Envio Cloud](https://docs.envio.dev/docs/HyperIndex/hosted-service)** | Managed hosting. Deploy by pushing to your deployment branch, promote without downtime, monitor with logs and alerts |
-| **[Subgraph Hosting](https://docs.envio.dev/docs/HyperIndex/migration-guide)** | Managed migration. Envio runs your subgraphs on HyperIndex behind a subgraph-compatible endpoint |
-| **[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)** | Blockchain data API. Up to 2,000x faster than JSON-RPC, with clients for Rust, Python, Node.js and Go |
+| **[Subgraph Hosting](https://envio.dev/pricing/subgraphs)** | Managed migration. Envio runs your subgraphs on HyperIndex behind a subgraph-compatible endpoint |
+| **[HyperSync](https://docs.envio.dev/docs/HyperSync/overview)** | Blockchain data API. Up to 2,000x faster than JSON-RPC, with official clients for Rust, Python and Node.js, plus a community Go client |
 | **[Solana HyperSync](https://docs.envio.dev/docs/HyperSync/solana)** | Solana transactions, instruction calls, logs and account activity from one endpoint |
 | **[HyperRPC](https://docs.envio.dev/docs/HyperRPC/overview-hyperrpc)** | Read-only JSON-RPC. Up to 5x faster than geth, erigon and reth, with no code changes |
 
 ## Built for production
 
-| | |
+| Dedicated plans | |
 |---|---|
 | **SLA** | Up to 99.99% uptime on Dedicated plans, backed by service credits |
 | **Support** | 24/7 on-call for Dedicated customers |
 | **Regions** | Multi-region failover |
-| **Migration** | Step-by-step [migration guides](https://docs.envio.dev/docs/HyperIndex/migration-guide), or let Envio do it with Subgraph Hosting |
+| **Migration** | Step-by-step [migration guides](https://docs.envio.dev/docs/HyperIndex/migration-guide), or let Envio do it with [Subgraph Hosting](https://envio.dev/pricing/subgraphs) |
 
-[Compare plans and contact sales →](https://envio.dev/pricing)
+[Compare plans and contact sales →](https://envio.dev/pricing/hosting)
 
 ## Quickstart
 
@@ -81,7 +81,7 @@ Needs Node.js 22.15 or newer, and Docker to run locally. pnpm is recommended. [G
 
 ## Build with AI agents
 
-| | |
+| Resource | |
 |---|---|
 | **Docs for agents** | [llms.txt](https://docs.envio.dev/llms.txt) and [llms-full.txt](https://docs.envio.dev/llms-full.txt) |
 | **Docs MCP server** | `https://docs.envio.dev/mcp`, with `docs_search` and `docs_fetch` ([guide](https://docs.envio.dev/docs/HyperIndex/mcp-server)) |
@@ -93,7 +93,7 @@ Needs Node.js 22.15 or newer, and Docker to run locally. pnpm is recommended. [G
 | Repository | What it is |
 |---|---|
 | [hyperindex](https://github.com/enviodev/hyperindex) | The HyperIndex framework and CLI |
-| [hypersync-client-rust](https://github.com/enviodev/hypersync-client-rust) · [python](https://github.com/enviodev/hypersync-client-python) · [node](https://github.com/enviodev/hypersync-client-node) · [go](https://github.com/enviodev/hypersync-client-go) | Official HyperSync clients |
+| [hypersync-client-rust](https://github.com/enviodev/hypersync-client-rust) · [python](https://github.com/enviodev/hypersync-client-python) · [node](https://github.com/enviodev/hypersync-client-node) · [go](https://github.com/enviodev/hypersync-client-go) | HyperSync clients (Go is community-maintained) |
 | [open-indexer-benchmark](https://github.com/enviodev/open-indexer-benchmark) | Reproducible benchmark of blockchain indexers, refreshed by CI |
 | [uniswap-v4-indexer](https://github.com/enviodev/uniswap-v4-indexer) | The real-time Uniswap V4 API behind v4.xyz |
 
@@ -150,7 +150,7 @@ HyperIndex turns smart contract events into a real-time GraphQL API. You choose 
 <details>
 <summary>What is HyperSync?</summary>
 
-HyperSync is Envio's blockchain data API and the data layer behind HyperIndex. It queries logs, transactions, blocks and traces, filtered on the server, and is up to 2,000x faster than JSON-RPC. Official clients are available for Rust, Python, Node.js and Go. See the [HyperSync docs](https://docs.envio.dev/docs/HyperSync/overview).
+HyperSync is Envio's blockchain data API and the data layer behind HyperIndex. It queries logs, transactions, blocks and traces, filtered on the server, and is up to 2,000x faster than JSON-RPC. Official clients are available for Rust, Python and Node.js, and there is a community-maintained Go client. See the [HyperSync docs](https://docs.envio.dev/docs/HyperSync/overview).
 
 </details>
 
@@ -184,7 +184,7 @@ Yes. A single HyperIndex indexer can index contracts on several chains and serve
 <details>
 <summary>Which chains are supported?</summary>
 
-Any EVM chain. HyperSync runs natively on every network in the [supported networks list](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks), and other EVM chains work over RPC. [Solana](https://docs.envio.dev/docs/HyperIndex/solana) (new) and [Fuel](https://docs.envio.dev/docs/HyperIndex/fuel) are supported too.
+Any EVM chain. HyperSync runs natively on every network in the [supported networks list](https://docs.envio.dev/docs/HyperSync/hypersync-supported-networks), and other EVM chains work over RPC. [Solana](https://docs.envio.dev/docs/HyperIndex/solana) and [Fuel](https://docs.envio.dev/docs/HyperIndex/fuel) are supported too.
 
 </details>
 
@@ -245,14 +245,14 @@ Yes. Production plans can be billed yearly at a lower price than paying month to
 <details>
 <summary>Is there an SLA?</summary>
 
-Yes. Dedicated plans come with a written SLA, with options up to 99.99% uptime backed by service credits, plus 24/7 on-call support. [Compare plans and contact sales](https://envio.dev/pricing).
+Yes. Dedicated plans come with a written SLA, with options up to 99.99% uptime backed by service credits, plus 24/7 on-call support. [Compare plans and contact sales](https://envio.dev/pricing/hosting).
 
 </details>
 
 <details>
 <summary>Can Envio migrate our subgraphs?</summary>
 
-Yes. Envio can migrate and host your subgraphs with Subgraph Hosting, or you can port them yourself with the [migration guide](https://docs.envio.dev/docs/HyperIndex/migration-guide) or [with AI](https://docs.envio.dev/docs/HyperIndex/migrate-with-ai).
+Yes. Envio can migrate and host your subgraphs with [Subgraph Hosting](https://envio.dev/pricing/subgraphs), or you can port them yourself with the [migration guide](https://docs.envio.dev/docs/HyperIndex/migration-guide) or [with AI](https://docs.envio.dev/docs/HyperIndex/migrate-with-ai).
 
 </details>
 
@@ -272,7 +272,7 @@ Yes. Envio engineers can work on your project for migrations, performance tuning
   <a href="https://docs.envio.dev">Docs</a> ·
   <a href="https://discord.gg/envio">Discord</a> ·
   <a href="https://t.me/+BeS5ihVUFONjNGFk">Telegram</a> ·
-  <a href="https://twitter.com/envio_indexer">X</a> ·
+  <a href="https://x.com/envio_indexer">X</a> ·
   <a href="https://www.youtube.com/@envio_indexer">YouTube</a> ·
   <a href="https://envio.beehiiv.com/subscribe">Newsletter</a>
 </p>
