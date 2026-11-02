@@ -44,26 +44,9 @@ The Envio stack:
 
 ## Performance
 
-Independent benchmarks by [Sentio (May 2025)](https://github.com/enviodev/open-indexer-benchmark/blob/main/sentio-benchmarks-may-2025/README.md), Uniswap V2 Factory dataset (raw indexing speed):
+HyperIndex is measured in the [Open Indexer Benchmark](https://github.com/enviodev/open-indexer-benchmark), a public repository that runs Envio, The Graph, Ponder, Squid SDK, Substreams, SubQuery and Rindexer on the same workloads and checks each tool's output against ground truth. The scenarios cover state aggregation, a decoded event stream, external contract calls, factory contract registration and Solana USDC transfers.
 
-| Indexer | Time | vs HyperIndex |
-|---|---|---|
-| **HyperIndex (Envio)** | **1 minute** | baseline |
-| Subsquid | 15 minutes | 15x slower |
-| Sentio | 2 hours 22 minutes | 142x slower |
-| The Graph | 2 hours 23 minutes | 143x slower |
-| Ponder | 2 hours 38 minutes | **158x slower** |
-
-LBTC Token with RPC calls (the most realistic real-world scenario, where contract reads are required):
-
-| Indexer | Time | vs HyperIndex |
-|---|---|---|
-| **HyperIndex (Envio)** | **1 minute** | baseline |
-| Sentio | 6 minutes | 6x slower |
-| Ponder | 45 minutes | 45x slower |
-| The Graph | 1 hour 3 minutes | 63x slower |
-
-> Source: [Sentio benchmark repository](https://github.com/enviodev/open-indexer-benchmark/blob/main/sentio-benchmarks-may-2025/README.md), May 2025. Full details: [HyperIndex Performance Benchmarks](https://docs.envio.dev/docs/HyperIndex/benchmarks)
+The tables are refreshed by CI and every result can be rerun from the repository. Current results are on the [Envio compare page](https://envio.dev/compare#benchmarks), and the methodology is in [METHODOLOGY.md](https://github.com/enviodev/open-indexer-benchmark/blob/main/METHODOLOGY.md).
 
 ---
 
@@ -195,7 +178,7 @@ HyperIndex is used to index blockchain events and make on-chain data queryable v
 <details>
 <summary>How does HyperIndex compare to The Graph?</summary>
 
-Independent benchmarks by Sentio (May 2025) show HyperIndex is significantly faster than The Graph across every tested scenario: 143x faster in the Uniswap V2 Factory benchmark and 63x faster in the LBTC with RPC calls benchmark (the most realistic real-world scenario). HyperIndex also supports Solana (beta) and Fuel in addition to any EVM chain, handles reorgs automatically, and supports TypeScript, JavaScript, and ReScript handlers instead of AssemblyScript.
+In the [Open Indexer Benchmark](https://github.com/enviodev/open-indexer-benchmark), HyperIndex syncs faster than a subgraph on Graph Node in every EVM scenario. HyperIndex also supports Solana (beta) and Fuel in addition to any EVM chain, handles reorgs automatically, and supports TypeScript, JavaScript, and ReScript handlers instead of AssemblyScript.
 
 </details>
 
