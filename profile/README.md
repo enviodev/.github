@@ -225,7 +225,7 @@ Yes, for HyperSync access in local development and self-hosted deployments. `env
 <details>
 <summary>What are the limits on the free development plan?</summary>
 
-Deployments are deleted when they exceed 20GB of storage or are older than 30 days. A two-stage deletion process starts when a deployment reaches 100,000 events processed, 5GB of storage, or 7 days without requests. See [pricing and billing](https://docs.envio.dev/docs/HyperIndex/hosted-service-billing) and [plans](https://envio.dev/pricing).
+Deployments are deleted when they exceed 20GB of storage or are older than 30 days. A two-stage deletion process starts when a deployment reaches 100,000 events processed or 5GB of storage. A deployment with no queries for 7 days gets a warning and is deleted 24 hours later unless it receives a query. See [pricing and billing](https://docs.envio.dev/docs/HyperIndex/hosted-service-billing) and [plans](https://envio.dev/pricing).
 
 </details>
 
