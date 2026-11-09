@@ -22,10 +22,11 @@
   <a href="https://docs.envio.dev/llms.txt"><img src="https://img.shields.io/badge/llms.txt-for_agents-24292F" alt="llms.txt"></a>
 </p>
 
+<!-- The trailing spaces after the command keep GitHub's copy button from covering it. Keep them. -->
 <table align="center"><tr><td>
 
 ```bash
-pnpx envio init
+pnpx envio init          
 ```
 
 </td></tr></table>
